@@ -1,0 +1,11 @@
+server:
+  port: 4060
+spring:
+  application:
+    name: micro-sevice
+spring:
+  redis:
+    remote: true        #cachecloud 获取
+    host: localhost
+    port: 6399
+    password:
